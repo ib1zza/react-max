@@ -22,6 +22,8 @@ function App() {
     usersStore.fetchUsers();
   }, []);
 
+  console.log(usersStore.users);
+
   return (
     <UserContextProvider>
       <Routes>
