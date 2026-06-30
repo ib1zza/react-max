@@ -15,7 +15,7 @@ import OneUserPage from "./components/OneUserPage.jsx";
 function App() {
   // return <PostList />;
   // spa - single page application
-
+  console.log("test");
   const usersStore = useUserStore();
 
   useEffect(() => {
