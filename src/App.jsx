@@ -23,6 +23,7 @@ function App() {
   }, []);
 
   console.log(usersStore.users);
+  console.log(usersStore.users);
 
   return (
     <UserContextProvider>
